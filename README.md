@@ -63,10 +63,5 @@ npm install --save-dev eslint-config-prettier
 ### Add rule to eslint extends parameter
 
 ```
-{
-  "extends": [
-    "some-other-config-you-use",
-    "prettier"
-  ]
-}
+  "extends": ["airbnb-base", "prettier"],
 ```
