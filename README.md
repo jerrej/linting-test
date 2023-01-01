@@ -20,6 +20,12 @@ npm install eslint --save-dev
 ./node_modules/.bin/eslint --init
 ```
 
+or
+
+```
+npm init @eslint/config
+```
+
 Answer prompts as needed
 
 Config file = .eslintrc.json
